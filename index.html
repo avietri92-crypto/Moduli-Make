@@ -10,7 +10,7 @@ document.getElementById('myForm').addEventListener('submit', async (e) => {
   const formData = new FormData(e.target);
   const data = Object.fromEntries(formData.entries());
 
-  await fetch('IL_TUO_URL_WEBHOOK_QUI', {
+  await fetch('https://hook.eu1.make.com/osajyryh5iyx14dc5ms9lvh5mr4jdtew', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
