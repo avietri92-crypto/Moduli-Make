@@ -1,0 +1,21 @@
+<form id="myForm">
+  <input type="text" name="user_name" placeholder="Nome" required>
+  <input type="email" name="user_email" placeholder="Email" required>
+  <button type="submit">Invia</button>
+</form>
+
+<script>
+document.getElementById('myForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const data = Object.fromEntries(formData.entries());
+
+  await fetch('IL_TUO_URL_WEBHOOK_QUI', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  });
+  
+  alert('Dati inviati istantaneamente!');
+});
+</script>
