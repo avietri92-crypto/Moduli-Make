@@ -5,11 +5,6 @@ body {
   background-image:url(make_project_sfondo.png);
 }
 
-#myForm{
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 h1 {
   font-size: 28px;
