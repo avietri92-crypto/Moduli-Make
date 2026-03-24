@@ -6,7 +6,9 @@ body {
   background-size:contain;
 }
 #myForm{
+  top:10px;
   display: flex;
+  justify-content:center;      /*Horizontal*/
   align-items: flex-start;     /* Vertical */
   min-height: 50%;
   flex-direction: column;
