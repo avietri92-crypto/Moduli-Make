@@ -56,7 +56,7 @@ input.question:placeholder-shown + label{
 }
 
 input.question:placeholder-shown,
-input.question:valid {
+input.question:not(:placeholder-shown) {
   padding-top: 35px;
 }
 
