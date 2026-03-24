@@ -3,6 +3,7 @@ body {
   width: 90%;
   max-width: 1125px;
   background-image:url(make_project_sfondo.png);
+  background-size:contain;
 }
 #myForm{
   display: flex;
