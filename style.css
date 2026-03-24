@@ -51,7 +51,7 @@ input.question + label {
   height: 0px;
 }
 
-input.question:focus + label{
+input.question:placeholder-shown + label{
   width: 80%;
 }
 
