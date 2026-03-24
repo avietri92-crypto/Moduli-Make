@@ -6,8 +6,9 @@ body {
 }
 
 #myForm{
-  display:flex;
-  justify-content:center;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
