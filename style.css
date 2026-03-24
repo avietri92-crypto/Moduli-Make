@@ -74,10 +74,6 @@ input.question:not(:placeholder-shown) + label{
   border-color: green;
 }
 
-input.question:invalid {
-  box-shadow: none;
-}
-
 input.question + label > span {
   font-weight: 300;
   margin: 0;
@@ -114,9 +110,6 @@ input.question:not(:placeholder-shown) ~ input[type="submit"] {
   animation: appear 1s forwards;
 }
 
-input.question:invalid ~ input[type="submit"]{
-  display: none;
-}
 
 @-webkit-keyframes appear {
   100% {
