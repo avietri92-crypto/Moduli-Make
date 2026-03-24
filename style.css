@@ -7,8 +7,7 @@ body {
 }
 #myForm{
   display: flex;
-  /*justify-content: center; /* Horizontal */
-  align-items: center;     /* Vertical */
+  align-items: flex-start;     /* Vertical */
   min-height: 50%;
   flex-direction: column;
 }
