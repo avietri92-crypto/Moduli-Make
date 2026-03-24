@@ -8,7 +8,7 @@ body {
   display: flex;
   /*justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
-  min-height: 100vh;
+  min-height: 50%;
   flex-direction: column;
 }
 
