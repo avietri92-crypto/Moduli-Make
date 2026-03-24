@@ -2,6 +2,7 @@ body {
   margin: 5% auto 0 auto;
   width: 90%;
   max-width: 1125px;
+  background-image:"make_project_sfondo.png";
 }
 
 h1 {
