@@ -57,12 +57,10 @@ input.question:focus + label {
 }
 
 input.question:focus,
-input.question:focus,
 input.question:valid {
   padding-top: 35px;
 }
 
-input.question:focus + label > span,
 input.question:focus + label > span,
 input.question:valid + label > span {
   top: -100px;
