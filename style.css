@@ -76,7 +76,7 @@ input.question:not(:placeholder-shown) + label > span {
 }
 
 
-input.question:valid + label{
+input.question:not(:placeholder-shown) + label{
   border-color: green;
 }
 
